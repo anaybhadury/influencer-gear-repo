@@ -12,14 +12,22 @@ body{
 }
 /* Shared styles */
 .container{
-    width: 90%;
+    max-width: 1440px;
     margin: 5rem auto;
-    border: 1px solid red;
 }
 .d-flex{
     display: flex;
 }
-
+.btn-primary{
+    padding: 12px 25px;
+    border: none;
+    cursor: pointer;
+    border-radius: 40px;
+    background-color: rgb(224, 44, 109);
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+}
 
 
 
@@ -44,12 +52,42 @@ body{
     font-size: 1.10rem;
     font-weight: 600;
 }
-
-
-
 /* navbar content styles end */
 
+/* banner section styles start */
+.banner-container{
+    max-width: 1440px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    align-items: center;
+    justify-content: space-between;
+    background-image: url('../images/Circle\ design.svg');
+    background-repeat: no-repeat;
+    background-position: right ;
+    background-size: contain;
+}
+.banner-text-content{
+    width: 580px;
+}
+.banner-camera-content img{
+    padding: 20px;
+}
+.banner-text-content h2{
+    font-size: 3rem;
+    font-weight: 800;
+    color: rgb(58, 58, 58);
+}
+.banner-text-content p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(58, 58, 58);
+    margin-bottom: 15px;
+}
 
+
+
+
+/* banner section styles end */
 
 
 
