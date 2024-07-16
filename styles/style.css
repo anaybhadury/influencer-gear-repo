@@ -58,13 +58,13 @@ body{
 .banner-container{
     max-width: 1440px;
     margin: 0 auto;
-    /* border: 1px solid red; */
     align-items: center;
     justify-content: space-between;
     background-image: url('../images/Circle\ design.svg');
     background-repeat: no-repeat;
     background-position: right ;
     background-size: contain;
+    margin-bottom: 70px;
 }
 .banner-text-content{
     width: 580px;
@@ -83,13 +83,23 @@ body{
     color: rgb(58, 58, 58);
     margin-bottom: 15px;
 }
+/* banner section styles end */
 
-
+/* banner section styles start */
+.brand-container{
+    max-width: 1350px;
+    height: 110px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.brand-items{
+    justify-content: space-around;
+    padding: 40px 60px;
+}
 
 
 /* banner section styles end */
-
-
 
 
 
