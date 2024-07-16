@@ -10,8 +10,44 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
+/* Shared styles */
+.container{
+    width: 90%;
+    margin: 5rem auto;
+    border: 1px solid red;
+}
+.d-flex{
+    display: flex;
+}
 
 
+
+
+
+/* navbar content styles start */
+.navbar-content{
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+    font-size: 1.25rem;
+}
+.nav-right ul{
+    display: flex;
+    cursor: pointer;
+}
+.nav-right li{
+    text-decoration: none;
+    margin-right: 20px;
+    list-style: none;
+    /* width: 75px; */
+    font-size: 1.10rem;
+    font-weight: 600;
+}
+
+
+
+/* navbar content styles end */
 
 
 
